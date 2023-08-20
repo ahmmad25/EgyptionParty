@@ -1,0 +1,196 @@
+* {
+   box-sizing: border-box;
+}
+
+/* section1 */
+#home {
+   position: relative;
+   background-image: url(../Images/events-heavenly-header\ .jpg);
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
+
+.home-content h1 {
+   font-size: 60px;
+}
+
+.layer {
+   color: white;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   bottom: 0px;
+   z-index: 999;
+   background-color: rgba(214, 46, 51, 0.6);
+}
+#leftMenu{
+   height: 100%;
+   width: 0px;
+   position: fixed;
+   z-index: 999999999999;
+   top: 0;
+   left: 0;
+   background-color: #111;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+   display: flex;
+   flex-direction: column;
+   padding-left: 25px;
+   display: none;
+}
+#leftMenu .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 30px;
+   margin-left: 50px;
+   color: white;
+   text-decoration: none;
+   padding-top: 5px;
+}
+#leftMenu :not(:first-child){
+   padding: 20px 8px 20px 32px;
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+#leftMenu a{
+   transition: color 0.5s ;
+}
+
+#leftMenu a:hover{
+   color: #511311;
+}
+.menu {
+   color: white;
+   font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+   
+   z-index: 99999;
+   gap: 10px;
+}
+
+/* section1 */
+
+
+/* section2 */
+.content h3 {
+   padding: 10px;
+   margin: 0;
+   background-color: rgba(214, 46, 51, 0.6);
+   cursor: pointer;
+   color: white;
+}
+
+.content p {
+   padding: 10px;
+   background-color: #ccc;
+   margin-top: 0;
+   margin-bottom: 0px;
+}
+
+
+.first-par,.second-par,.third-par,.fourth-par{
+   display: none;
+}
+/* section2 */
+
+/* section3 */
+
+#count{
+  height: 330px;
+   position: relative;
+   background-image: url(../Images/invitation-2508607__340.jpg);
+   background-position: center;
+   background-size: 100% 100%;
+}
+.count-layer{
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   background-color: rgba(214, 46, 51 , 0.6);
+   z-index: 11;
+
+}
+.row .col-md-3 .tim{
+   padding: 50px;
+   border: 1px solid #FFF;
+   font-weight: 500;
+   font-size: 30px;
+   color: white;
+}
+#contact .container h2{
+   text-transform: uppercase;
+   font-size: 35px;
+   color: #444;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+#contact .container p{
+   color: #777;
+   font-weight: 300;
+   font-size: 16px;
+}
+.container{
+   padding: 100px 0px;
+}
+/* section4 */
+
+.row .col-md-6 h3{
+   color: #444;
+   font-size: 18px;
+   font-weight: bold;
+}
+.row .col-md-6 p{
+font-size: 16px;
+line-height: 26px;
+color: #777;
+}
+.social-icon .icon{
+   margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    cursor: pointer;
+    transition: all 0.5 ;
+}
+.social-icon .icon:hover{
+ background-color:   #D62E33;
+ color: white;
+ border: none;
+}
+
+#icon-color{
+   color: #777777;
+}
+#num{
+   font-size: 20px;
+   color: #D62E33;
+}
+.btn{
+   background-color: #D62E33;
+   padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+
+/* section4 */
+
+ @media  screen and (max-width:600px) {
+.container{
+   text-align: center;
+    
+}
+ }
